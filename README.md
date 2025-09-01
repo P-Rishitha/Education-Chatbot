@@ -7,11 +7,11 @@ It was developed as part of a **mini assessment** to demonstrate the ability to 
 
 ##  Features
 
-* ✅ Answers **15 core AI/ML questions** correctly.
-* ✅ Supports **common abbreviations** like `AI`, `ML`, `DL`, `NLP`.
-* ✅ Handles **simple variations in phrasing** (via exact, substring, and fuzzy matching).
-* ✅ Lightweight and runs in any Python environment.
-* ✅ Interactive CLI chatbot loop.
+* Answers **15 core AI/ML questions** correctly.
+* Supports **common abbreviations** like `AI`, `ML`, `DL`, `NLP`.
+* Handles **simple variations in phrasing** (via exact, substring, and fuzzy matching).
+* Lightweight and runs in any Python environment.
+* Interactive CLI chatbot loop.
 
 ---
 
@@ -40,45 +40,34 @@ It was developed as part of a **mini assessment** to demonstrate the ability to 
 ## Project Structure
 
 ```
-education-chatbot
-── chatbot.py       # Main chatbot code
-── README.md        # Project documentation
-```
 
----
+Education-Chatbot/
+│── Education\_Chatbot.ipynb   # Main chatbot notebook
+│── Education\_Chatbot.html    # Exported HTML version (for easy viewing)
+│── README.md                 # Project documentation
+
+````
 
 ## Running the Chatbot
 
-1. Clone this repository:
+1. Install requirements
+
+   ```bash
+   pip install notebook
+   ```
+ (difflib and re are built-in so no extra installation needed)
+
+2. Clone this repository:
 
    ```bash
    git clone https://github.com/your-username/education-chatbot.git
    cd education-chatbot
    ```
-2. Run the chatbot:
+3. Run the chatbot:
 
    ```bash
-   python chatbot.py
+   jupyter notebook Education_Chatbot.ipynb
    ```
-
----
-
-## Example Interaction
-
-```
-Hello! I’m your AI/ML Chatbot.
-You can ask me about topics like AI, ML, DL, datasets, overfitting, etc.
-Type 'exit' anytime to quit.
-
-You: difference between ai and ml
-Bot: AI is the bigger concept of making machines smart. ML is a branch of AI that learns from data.
-
-You: what is overfitting?
-Bot: Overfitting happens when a model memorizes training data too well but fails on new data.
-
-You: nlp
-Bot: NLP is a part of AI that deals with understanding and generating human language.
-```
 
 ---
 
@@ -109,9 +98,14 @@ Bot: NLP is a part of AI that deals with understanding and generating human lang
 
 ---
 
-## 📝 Assessment Details
+## Sample Output
 
-* **Project Title**: Education Chatbot
-* **Objective**: Answer 15 predefined AI/ML questions
-* **Time Estimate**: 30–45 minutes
-* **Submission**: Python script + presentation demo
+<img width="964" height="297" alt="Sample Output" src="https://github.com/user-attachments/assets/63d7f4bf-1a3b-48ad-ba71-6f698863a644" />
+
+---
+
+## Submission
+
+This repository was created as part of a **Mini Assessment Project** on AI/ML.  
+The chatbot answers 15 core AI/ML questions, demonstrates rule-based NLP,  
+and is submitted by **P. Rishitha**.
