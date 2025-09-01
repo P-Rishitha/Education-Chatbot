@@ -1,11 +1,11 @@
-# 📚 Education Chatbot (Mini Assessment)
+# Education Chatbot 
 
 This project is a **rule-based AI/ML educational chatbot** built in Python.
 It was developed as part of a **mini assessment** to demonstrate the ability to design a chatbot capable of answering **15 predefined questions** related to Artificial Intelligence and Machine Learning concepts.
 
 ---
 
-## 🚀 Features
+##  Features
 
 * ✅ Answers **15 core AI/ML questions** correctly.
 * ✅ Supports **common abbreviations** like `AI`, `ML`, `DL`, `NLP`.
@@ -15,7 +15,7 @@ It was developed as part of a **mini assessment** to demonstrate the ability to 
 
 ---
 
-## 🧑‍💻 Tech Stack
+## Tech Stack
 
 * **Language**: Python 3
 * **Libraries**:
@@ -25,7 +25,7 @@ It was developed as part of a **mini assessment** to demonstrate the ability to 
 
 ---
 
-## ⚙️ How It Works
+## How It Works
 
 1. **Predefined Q\&A Bank** – Stores 15 essential AI/ML concepts.
 2. **Shortcut Expansion** – Expands abbreviations like `ai → artificial intelligence`.
@@ -37,17 +37,17 @@ It was developed as part of a **mini assessment** to demonstrate the ability to 
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
-education-chatbot/
-│── chatbot.py       # Main chatbot code
-│── README.md        # Project documentation
+education-chatbot
+── chatbot.py       # Main chatbot code
+── README.md        # Project documentation
 ```
 
 ---
 
-## ▶️ Running the Chatbot
+## Running the Chatbot
 
 1. Clone this repository:
 
@@ -63,10 +63,10 @@ education-chatbot/
 
 ---
 
-## 💬 Example Interaction
+## Example Interaction
 
 ```
-🤖 Hello! I’m your AI/ML Chatbot.
+Hello! I’m your AI/ML Chatbot.
 You can ask me about topics like AI, ML, DL, datasets, overfitting, etc.
 Type 'exit' anytime to quit.
 
@@ -82,7 +82,7 @@ Bot: NLP is a part of AI that deals with understanding and generating human lang
 
 ---
 
-## 📌 Predefined Questions (15)
+## Predefined Questions (15)
 
 1. Artificial Intelligence
 2. Machine Learning
@@ -102,7 +102,7 @@ Bot: NLP is a part of AI that deals with understanding and generating human lang
 
 ---
 
-## ✨ Bonus
+## Bonus
 
 * Handles **phrasing variations** (e.g., `difference ai ml` or `ai vs ml`).
 * Can be extended with more Q\&A pairs easily by updating the `qa_bank`.
@@ -115,13 +115,3 @@ Bot: NLP is a part of AI that deals with understanding and generating human lang
 * **Objective**: Answer 15 predefined AI/ML questions
 * **Time Estimate**: 30–45 minutes
 * **Submission**: Python script + presentation demo
-
----
-
-## 👨‍💻 Author
-
-Developed by *P. Rishitha* as part of a **mini assessment** for Algorithm Aliens.
-
----
-
-Do you want me to also **add screenshots** (like your chatbot terminal output) into the README so your GitHub repo looks even more polished?
